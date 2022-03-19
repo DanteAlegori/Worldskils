@@ -1,0 +1,115 @@
+
+input{    outline: none;}
+.booking_form {
+    max-width: 400px;
+    margin: 4rem auto;
+}
+
+h2 {
+    font-family: 'Roboto Condensed';
+    font-size: 32px;
+    color: #313030;
+    padding-bottom: 30px;
+}
+
+.booking_form .input_contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+input[type=text] {
+            height: 30px;
+            border: 1px solid #f1f1f1;
+            padding: 0 13px;
+            font-family: 'Open Sans';
+            color: #737272;
+            font-size: 14px;
+        }
+
+.booking_form .input_contact input[type=text] {
+    width: 190px;
+    margin-bottom: 15px;
+}
+
+
+.booking_form .input_label input[type=text] {
+    width: 320px;
+    margin-bottom: 15px;
+}
+
+.booking_form .input_label label {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.booking_form .input_label span {
+    font-family: 'Open Sans';
+    color: #737272;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+input::-webkit-input-placeholder,
+
+input::-moz-input-placeholder {
+
+    font-family: 'Open Sans';
+
+    color: #737272;
+
+    font-size: 14px;
+
+}
+
+*:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+
+*:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+.booking_form .submit_button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.booking_form input[type=submit] {
+    width: 120px;
+    height: 45px;
+    background: #607D8B;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+@font-face {
+    font-family: "RalewayRegular";
+
+    src: url("..\УП по ПМ.05 (исходные файлы)\Media\fonts\Roboto-Italic.ttf") format("truetype");
+font-style: normal;
+    font-weight: normal;
+}
+h1{
+    font-family: "RalewayRegular";
+}
+p{
+    font-family: "RalewayRegular";
+}
+li{
+    font-family: "RalewayRegular";
+
+.gpg {
+    display: flex;
+
+}
